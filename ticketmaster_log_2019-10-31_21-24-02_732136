@@ -1,0 +1,4 @@
+2019-10-31T21:24:02.734152-0400 INFO Ticketmaster Refactor 2 __main__ Ticketmaster API pull start
+2019-10-31T21:24:02.933444-0400 INFO Ticketmaster Refactor 2 __main__ Status code 401 response: b'{"fault":{"faultstring":"Invalid ApiKey","detail":{"errorcode":"oauth.v2.InvalidApiKey"}}}'
+2019-10-31T21:24:03.091151-0400 INFO Ticketmaster Refactor 2 __main__ Status code 401 response: b'{"fault":{"faultstring":"Invalid ApiKey","detail":{"errorcode":"oauth.v2.InvalidApiKey"}}}'
+2019-10-31T21:24:03.263765-0400 INFO Ticketmaster Refactor 2 __main__ Status code 401 response: b'{"fault":{"faultstring":"Failed to resolve API Key variable request.queryparam.apikey","detail":{"errorcode":"steps.oauth.v2.FailedToResolveAPIKey"}}}'
