@@ -1,4 +1,4 @@
-WORK IN PROCESS!!!!!
+# WORK IN PROCESS!!!!!
 # !/usr/bin/env python3
 # The 'shebang' line should always be in the first line of the file
 
@@ -17,6 +17,10 @@ from fuzzywuzzy import fuzz
 from dataclasses import dataclass
 import requests
 from loguru import logger
+import json
+import util
+from util import safeget
+
 
 # If you are writing code this sophisticated there is no reason for you not to be using a real logger.
 # This sets up the logger. After this, you just pick a logging level and send it strings and it does the rest.
@@ -45,8 +49,10 @@ class Artist:
 
 
 api_keys = [
-    ApiKey(key="83sdXVyv4k3NnuGCIvk5nAHE3NSWddg7", count=125),
-    ApiKey(key="2C4llrNfIrGgEZxAft1QuJ5bpbS3SdpF", count=125),
+    "83sdXVyv4k3NnuGCIvk5nAHE3NSWddg7",
+    "2C4llrNfIrGgEZxAft1QuJ5bpbS3SdpF"
+    # ApiKey(key="83sdXVyv4k3NnuGCIvk5nAHE3NSWddg7", count=125),
+    # ApiKey(key="2C4llrNfIrGgEZxAft1QuJ5bpbS3SdpF", count=125),
 ]
 
 
@@ -64,13 +70,77 @@ def data_fetch_pymysql():
 
 
 # Safe dictionary/list lookup so you don't have "try:except" everywhere
-def safeget(dct, *keys):
-    for key in keys:
-        try:
-            dct = dct[key]
-        except KeyError:
-            return None
-    return dct
+# def safeget(dct, *keys):
+#    for key in keys:
+#        try:
+#            dct = dct[key]
+#        except KeyError:
+#            return None
+#    return dct
+
+
+df = data_fetch_pymysql()
+
+# print(df.head(10))
+
+class TEST:
+    
+    def __init__(self, keys, retries=3):
+        self.keys_iter = iter(keys)
+        self.key = next(self.keys_iter)
+        
+
+
+    def get_json(self):
+        
+        artists_df = data_fetch_pymysql().head(5)
+        
+        for artist_dat in artists_df.iterrows():
+    
+            spotify_artist = artist_dat[1]['artist']
+    
+            artist_encode = spotify_artist.encode('utf-8')
+            artist_decode = unidecode(str(artist_encode, encoding = "utf-8"))
+            artist_keyword = artist_decode.replace(" ", "+")
+            print(artist_keyword)
+            
+            r = requests.get(
+                EVENT_BASE_URL,
+                params={"size": 25, "keyword": artist_keyword, "apikey": self.key},
+            )
+            
+            print(r.status_code)
+            
+            if r.status_code == 200:  #Good response
+                logger.info(f"Status code {r.status_code} artist: {artist_keyword}")
+                return r.json(), False
+            # if r.status_code == 429 or r.status_code == 401:  #Too many requests or invalid key; get a new key
+                # logger.info(f"Status code {r.status_code} response: {r.content}")
+                # self.key = next(self.keys_iter, None)
+                # continue
+            logger.info(f"Unexpected status code {r.status_code} response {r.content}")
+            return None, True    
+
+    def persist_from_json(self, events_json, spotify_artist):
+        for event in safeget(events_json, "_embedded", "events"):
+            if name_ok(safeget(event, "name"), spotify_artist):
+                venue_dict = safeget(event, "_embedded", "venues", 0, "name")
+                print(venue_dict)
+                
+                
+
+test_instance = TEST(api_keys)
+
+print(test_instance.key)
+
+print(test_instance.get_json())
+
+# test_instance.persist_from_json(test_instance.get_json()[1], test_instance.get_json()[0])
+
+
+
+
+            
 
 
 # All logic for determining name validity is in one spot in case you want to use something other
@@ -196,7 +266,7 @@ def ticketmaster_pull_caller():
         pull_from_api(spotify_artist)
 
 
-pull_from_api("taylor+swift")
-ticketmaster_pull_caller()
+#pull_from_api("taylor+swift")
+#ticketmaster_pull_caller()
 
 logger.info("Program done")
