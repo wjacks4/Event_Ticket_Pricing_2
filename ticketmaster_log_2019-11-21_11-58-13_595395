@@ -1,0 +1,91 @@
+2019-11-21T11:58:13.599320-0500 INFO Ticketmaster Refactor __main__ Ticketmaster API pull start
+2019-11-21T11:58:14.885935-0500 INFO Ticketmaster Refactor __main__ Status code 200 artist: City+Girls
+2019-11-21T11:58:15.141047-0500 INFO Ticketmaster Refactor __main__ Status code 200 artist: MAX
+2019-11-21T11:58:15.286173-0500 INFO Ticketmaster Refactor __main__ Status code 429 response: b'{"fault":{"faultstring":"Spike arrest violation. Allowed rate : MessageRate{messagesPerPeriod=5, periodInMicroseconds=1000000, maxBurstMessageCount=1.0}","detail":{"errorcode":"policies.ratelimit.SpikeArrestViolation"}}}'
+2019-11-21T11:58:15.457279-0500 INFO Ticketmaster Refactor __main__ Status code 200 artist: The+Heavy
+2019-11-21T11:58:15.637156-0500 INFO Ticketmaster Refactor __main__ Status code 200 artist: FISHER
+2019-11-21T11:58:15.823351-0500 INFO Ticketmaster Refactor __main__ Status code 200 artist: Ali+Gatie
+2019-11-21T11:58:15.976959-0500 INFO Ticketmaster Refactor __main__ Status code 200 artist: Spongebob+Squarepants
+2019-11-21T11:58:16.200400-0500 INFO Ticketmaster Refactor __main__ Status code 200 artist: Boy+&+Bear
+2019-11-21T11:58:16.392109-0500 INFO Ticketmaster Refactor __main__ Status code 200 artist: Whitney
+2019-11-21T11:58:16.617066-0500 INFO Ticketmaster Refactor __main__ Status code 200 artist: 11:11
+2019-11-21T11:58:16.893409-0500 INFO Ticketmaster Refactor __main__ Status code 200 artist: Family+of+the+Year
+2019-11-21T11:58:16.900868-0500 INFO Ticketmaster Refactor __main__ Program done
+2019-11-21T12:00:31.890149-0500 INFO Ticketmaster Refactor __main__ Ticketmaster API pull start
+2019-11-21T12:00:33.191247-0500 INFO Ticketmaster Refactor __main__ Status code 200 artist: City+Girls
+2019-11-21T12:00:33.386099-0500 INFO Ticketmaster Refactor __main__ Status code 200 artist: MAX
+2019-11-21T12:00:33.531477-0500 INFO Ticketmaster Refactor __main__ Status code 200 artist: The+Heavy
+2019-11-21T12:00:33.693574-0500 INFO Ticketmaster Refactor __main__ Status code 200 artist: FISHER
+2019-11-21T12:00:33.857592-0500 INFO Ticketmaster Refactor __main__ Status code 200 artist: Ali+Gatie
+2019-11-21T12:00:34.021021-0500 INFO Ticketmaster Refactor __main__ Status code 200 artist: Spongebob+Squarepants
+2019-11-21T12:00:34.181442-0500 INFO Ticketmaster Refactor __main__ Status code 200 artist: Boy+&+Bear
+2019-11-21T12:00:34.340575-0500 INFO Ticketmaster Refactor __main__ Status code 200 artist: Whitney
+2019-11-21T12:00:34.506218-0500 INFO Ticketmaster Refactor __main__ Status code 200 artist: 11:11
+2019-11-21T12:00:34.651160-0500 INFO Ticketmaster Refactor __main__ Status code 200 artist: Family+of+the+Year
+2019-11-21T12:00:34.659386-0500 INFO Ticketmaster Refactor __main__ Program done
+2019-11-21T12:02:02.339248-0500 INFO Ticketmaster Refactor __main__ Ticketmaster API pull start
+2019-11-21T12:02:03.860260-0500 INFO Ticketmaster Refactor __main__ Status code 200 artist: City+Girls
+2019-11-21T12:02:04.011469-0500 INFO Ticketmaster Refactor __main__ Status code 429 response: b'{"fault":{"faultstring":"Spike arrest violation. Allowed rate : MessageRate{messagesPerPeriod=5, periodInMicroseconds=1000000, maxBurstMessageCount=1.0}","detail":{"errorcode":"policies.ratelimit.SpikeArrestViolation"}}}'
+2019-11-21T12:02:04.193878-0500 INFO Ticketmaster Refactor __main__ Status code 200 artist: MAX
+2019-11-21T12:02:04.436601-0500 INFO Ticketmaster Refactor __main__ Status code 200 artist: The+Heavy
+2019-11-21T12:02:04.637465-0500 INFO Ticketmaster Refactor __main__ Status code 200 artist: FISHER
+2019-11-21T12:02:04.782123-0500 INFO Ticketmaster Refactor __main__ Status code 200 artist: Ali+Gatie
+2019-11-21T12:02:04.953879-0500 INFO Ticketmaster Refactor __main__ Status code 200 artist: Spongebob+Squarepants
+2019-11-21T12:02:05.141207-0500 INFO Ticketmaster Refactor __main__ Status code 200 artist: Boy+&+Bear
+2019-11-21T12:02:05.320676-0500 INFO Ticketmaster Refactor __main__ Status code 200 artist: Whitney
+2019-11-21T12:02:05.582137-0500 INFO Ticketmaster Refactor __main__ Status code 200 artist: 11:11
+2019-11-21T12:02:05.747149-0500 INFO Ticketmaster Refactor __main__ Status code 200 artist: Family+of+the+Year
+2019-11-21T12:02:05.748780-0500 INFO Ticketmaster Refactor __main__ Program done
+2019-11-21T12:02:17.669138-0500 INFO Ticketmaster Refactor __main__ Ticketmaster API pull start
+2019-11-21T12:02:19.099815-0500 INFO Ticketmaster Refactor __main__ Status code 200 artist: City+Girls
+2019-11-21T12:02:19.285436-0500 INFO Ticketmaster Refactor __main__ Status code 200 artist: MAX
+2019-11-21T12:02:19.454937-0500 INFO Ticketmaster Refactor __main__ Status code 200 artist: The+Heavy
+2019-11-21T12:02:19.639409-0500 INFO Ticketmaster Refactor __main__ Status code 200 artist: FISHER
+2019-11-21T12:02:19.816815-0500 INFO Ticketmaster Refactor __main__ Status code 200 artist: Ali+Gatie
+2019-11-21T12:02:19.965772-0500 INFO Ticketmaster Refactor __main__ Status code 429 response: b'{"fault":{"faultstring":"Spike arrest violation. Allowed rate : MessageRate{messagesPerPeriod=5, periodInMicroseconds=1000000, maxBurstMessageCount=1.0}","detail":{"errorcode":"policies.ratelimit.SpikeArrestViolation"}}}'
+2019-11-21T12:02:20.121811-0500 INFO Ticketmaster Refactor __main__ Status code 200 artist: Spongebob+Squarepants
+2019-11-21T12:02:20.297677-0500 INFO Ticketmaster Refactor __main__ Status code 200 artist: Boy+&+Bear
+2019-11-21T12:02:20.513510-0500 INFO Ticketmaster Refactor __main__ Status code 200 artist: Whitney
+2019-11-21T12:02:20.704392-0500 INFO Ticketmaster Refactor __main__ Status code 200 artist: 11:11
+2019-11-21T12:02:20.895079-0500 INFO Ticketmaster Refactor __main__ Status code 200 artist: Family+of+the+Year
+2019-11-21T12:02:20.897982-0500 INFO Ticketmaster Refactor __main__ Program done
+2019-11-21T12:03:06.405818-0500 INFO Ticketmaster Refactor __main__ Ticketmaster API pull start
+2019-11-21T12:03:07.820467-0500 INFO Ticketmaster Refactor __main__ Status code 200 artist: City+Girls
+2019-11-21T12:03:08.055924-0500 INFO Ticketmaster Refactor __main__ Status code 200 artist: MAX
+2019-11-21T12:03:08.239591-0500 INFO Ticketmaster Refactor __main__ Status code 200 artist: The+Heavy
+2019-11-21T12:03:08.435382-0500 INFO Ticketmaster Refactor __main__ Status code 200 artist: FISHER
+2019-11-21T12:03:08.711004-0500 INFO Ticketmaster Refactor __main__ Status code 200 artist: Ali+Gatie
+2019-11-21T12:03:08.896304-0500 INFO Ticketmaster Refactor __main__ Status code 200 artist: Spongebob+Squarepants
+2019-11-21T12:03:09.072208-0500 INFO Ticketmaster Refactor __main__ Status code 200 artist: Boy+&+Bear
+2019-11-21T12:03:09.233238-0500 INFO Ticketmaster Refactor __main__ Status code 429 response: b'{"fault":{"faultstring":"Spike arrest violation. Allowed rate : MessageRate{messagesPerPeriod=5, periodInMicroseconds=1000000, maxBurstMessageCount=1.0}","detail":{"errorcode":"policies.ratelimit.SpikeArrestViolation"}}}'
+2019-11-21T12:03:09.442122-0500 INFO Ticketmaster Refactor __main__ Status code 200 artist: Whitney
+2019-11-21T12:03:09.780784-0500 INFO Ticketmaster Refactor __main__ Status code 200 artist: 11:11
+2019-11-21T12:03:10.083735-0500 INFO Ticketmaster Refactor __main__ Status code 200 artist: Family+of+the+Year
+2019-11-21T12:03:10.095162-0500 INFO Ticketmaster Refactor __main__ Program done
+2019-11-21T12:06:16.940145-0500 INFO Ticketmaster Refactor __main__ Ticketmaster API pull start
+2019-11-21T12:06:18.444380-0500 INFO Ticketmaster Refactor __main__ Status code 200 artist: City+Girls
+2019-11-21T12:06:18.632286-0500 INFO Ticketmaster Refactor __main__ Status code 200 artist: MAX
+2019-11-21T12:06:18.821963-0500 INFO Ticketmaster Refactor __main__ Status code 200 artist: The+Heavy
+2019-11-21T12:06:19.013830-0500 INFO Ticketmaster Refactor __main__ Status code 200 artist: FISHER
+2019-11-21T12:06:19.201679-0500 INFO Ticketmaster Refactor __main__ Status code 200 artist: Ali+Gatie
+2019-11-21T12:06:19.394751-0500 INFO Ticketmaster Refactor __main__ Status code 200 artist: Spongebob+Squarepants
+2019-11-21T12:06:19.548909-0500 INFO Ticketmaster Refactor __main__ Status code 429 response: b'{"fault":{"faultstring":"Spike arrest violation. Allowed rate : MessageRate{messagesPerPeriod=5, periodInMicroseconds=1000000, maxBurstMessageCount=1.0}","detail":{"errorcode":"policies.ratelimit.SpikeArrestViolation"}}}'
+2019-11-21T12:06:19.725933-0500 INFO Ticketmaster Refactor __main__ Status code 200 artist: Boy+&+Bear
+2019-11-21T12:06:19.903168-0500 INFO Ticketmaster Refactor __main__ Status code 200 artist: Whitney
+2019-11-21T12:06:20.083946-0500 INFO Ticketmaster Refactor __main__ Status code 200 artist: 11:11
+2019-11-21T12:06:20.237780-0500 INFO Ticketmaster Refactor __main__ Status code 200 artist: Family+of+the+Year
+2019-11-21T12:06:20.243651-0500 INFO Ticketmaster Refactor __main__ Program done
+2019-11-21T12:08:18.725808-0500 INFO Ticketmaster Refactor __main__ Ticketmaster API pull start
+2019-11-21T12:08:20.466400-0500 INFO Ticketmaster Refactor __main__ Status code 200 artist: City+Girls
+2019-11-21T12:08:20.627257-0500 INFO Ticketmaster Refactor __main__ Status code 429 response: b'{"fault":{"faultstring":"Spike arrest violation. Allowed rate : MessageRate{messagesPerPeriod=5, periodInMicroseconds=1000000, maxBurstMessageCount=1.0}","detail":{"errorcode":"policies.ratelimit.SpikeArrestViolation"}}}'
+2019-11-21T12:08:20.632544-0500 INFO Ticketmaster Refactor __main__ New key is ApiKey(key='2C4llrNfIrGgEZxAft1QuJ5bpbS3SdpF', count=5)
+2019-11-21T12:08:21.056117-0500 INFO Ticketmaster Refactor __main__ Status code 200 artist: MAX
+2019-11-21T12:08:21.476275-0500 INFO Ticketmaster Refactor __main__ Status code 200 artist: The+Heavy
+2019-11-21T12:08:21.782324-0500 INFO Ticketmaster Refactor __main__ Status code 200 artist: FISHER
+2019-11-21T12:08:22.303809-0500 INFO Ticketmaster Refactor __main__ Status code 200 artist: Ali+Gatie
+2019-11-21T12:08:22.628805-0500 INFO Ticketmaster Refactor __main__ Status code 200 artist: Spongebob+Squarepants
+2019-11-21T12:08:22.962614-0500 INFO Ticketmaster Refactor __main__ Status code 200 artist: Boy+&+Bear
+2019-11-21T12:08:23.256594-0500 INFO Ticketmaster Refactor __main__ Status code 200 artist: Whitney
+2019-11-21T12:08:23.801285-0500 INFO Ticketmaster Refactor __main__ Status code 200 artist: 11:11
+2019-11-21T12:08:24.071575-0500 INFO Ticketmaster Refactor __main__ Status code 200 artist: Family+of+the+Year
+2019-11-21T12:08:24.076997-0500 INFO Ticketmaster Refactor __main__ Program done
