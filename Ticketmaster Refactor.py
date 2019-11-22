@@ -99,17 +99,17 @@ class TEST:
             )
             
             if r.status_code == 200:  #Good response
-                logger.info(f"Status code {r.status_code} artist: {artist_keyword}")
+                logger.info(f"Status code {r.status_code} artist: {artist_keyword} key:{self.key_obj.key}")
                 return 'STATUS CODE GOOD - SHOULD EXIT - '
                 # return r.json(), False
             if r.status_code == 429 or r.status_code == 401:  #Too many requests or invalid key; get a new key
                 logger.info(f"Status code {r.status_code} response: {r.content}")
                 self.key_obj = next(self.keys_iter, None)
-                logger.info(f"New key is {self.key_obj}")
+                logger.info(f"New key is {self.key_obj.key}")
                 continue
                 
             # logger.info(f"Unexpected status code {r.status_code} response {r.content}")
-            # return None, True    
+            return None, True    
 
     def persist_from_json(self, events_json, spotify_artist):
         for event in safeget(events_json, "_embedded", "events"):
@@ -130,7 +130,7 @@ def class_caller(artists_df):
 
         test_instance = TEST(api_keys)
         # time.sleep(1)
-        each_instance = test_instance.get_json(artist_keyword)
+        test_instance.get_json(artist_keyword)
         # print(each_instance)
         
 

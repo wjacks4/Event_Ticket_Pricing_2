@@ -1,0 +1,52 @@
+2019-11-22T14:38:55.543742-0500 INFO Ticketmaster Refactor __main__ Ticketmaster API pull start
+2019-11-22T14:38:56.774442-0500 INFO Ticketmaster Refactor __main__ Status code 200 artist: City+Girls key:83sdXVyv4k3NnuGCIvk5nAHE3NSWddg7
+2019-11-22T14:38:56.886994-0500 INFO Ticketmaster Refactor __main__ Status code 200 artist: MAX key:83sdXVyv4k3NnuGCIvk5nAHE3NSWddg7
+2019-11-22T14:38:56.952412-0500 INFO Ticketmaster Refactor __main__ Status code 429 response: b'{"fault":{"faultstring":"Spike arrest violation. Allowed rate : MessageRate{messagesPerPeriod=5, periodInMicroseconds=1000000, maxBurstMessageCount=1.0}","detail":{"errorcode":"policies.ratelimit.SpikeArrestViolation"}}}'
+2019-11-22T14:38:56.955410-0500 INFO Ticketmaster Refactor __main__ New key is 2C4llrNfIrGgEZxAft1QuJ5bpbS3SdpF
+2019-11-22T14:38:57.358526-0500 INFO Ticketmaster Refactor __main__ Status code 200 artist: The+Heavy key:2C4llrNfIrGgEZxAft1QuJ5bpbS3SdpF
+2019-11-22T14:38:57.445184-0500 INFO Ticketmaster Refactor __main__ Status code 200 artist: FISHER key:83sdXVyv4k3NnuGCIvk5nAHE3NSWddg7
+2019-11-22T14:38:57.525814-0500 INFO Ticketmaster Refactor __main__ Status code 200 artist: Ali+Gatie key:83sdXVyv4k3NnuGCIvk5nAHE3NSWddg7
+2019-11-22T14:38:57.593961-0500 INFO Ticketmaster Refactor __main__ Status code 429 response: b'{"fault":{"faultstring":"Spike arrest violation. Allowed rate : MessageRate{messagesPerPeriod=5, periodInMicroseconds=1000000, maxBurstMessageCount=1.0}","detail":{"errorcode":"policies.ratelimit.SpikeArrestViolation"}}}'
+2019-11-22T14:38:57.595957-0500 INFO Ticketmaster Refactor __main__ New key is 2C4llrNfIrGgEZxAft1QuJ5bpbS3SdpF
+2019-11-22T14:38:57.725095-0500 INFO Ticketmaster Refactor __main__ Status code 200 artist: Spongebob+Squarepants key:2C4llrNfIrGgEZxAft1QuJ5bpbS3SdpF
+2019-11-22T14:38:57.803168-0500 INFO Ticketmaster Refactor __main__ Status code 200 artist: Boy+&+Bear key:83sdXVyv4k3NnuGCIvk5nAHE3NSWddg7
+2019-11-22T14:38:58.074274-0500 INFO Ticketmaster Refactor __main__ Status code 200 artist: Whitney key:83sdXVyv4k3NnuGCIvk5nAHE3NSWddg7
+2019-11-22T14:38:58.162463-0500 INFO Ticketmaster Refactor __main__ Status code 200 artist: 11:11 key:83sdXVyv4k3NnuGCIvk5nAHE3NSWddg7
+2019-11-22T14:38:58.231857-0500 INFO Ticketmaster Refactor __main__ Status code 429 response: b'{"fault":{"faultstring":"Spike arrest violation. Allowed rate : MessageRate{messagesPerPeriod=5, periodInMicroseconds=1000000, maxBurstMessageCount=1.0}","detail":{"errorcode":"policies.ratelimit.SpikeArrestViolation"}}}'
+2019-11-22T14:38:58.232855-0500 INFO Ticketmaster Refactor __main__ New key is 2C4llrNfIrGgEZxAft1QuJ5bpbS3SdpF
+2019-11-22T14:38:58.536670-0500 INFO Ticketmaster Refactor __main__ Status code 200 artist: Family+of+the+Year key:2C4llrNfIrGgEZxAft1QuJ5bpbS3SdpF
+2019-11-22T14:38:58.540605-0500 INFO Ticketmaster Refactor __main__ Program done
+2019-11-22T14:41:53.964038-0500 INFO Ticketmaster Refactor __main__ Ticketmaster API pull start
+2019-11-22T14:41:55.122452-0500 INFO Ticketmaster Refactor __main__ Status code 200 artist: City+Girls key:83sdXVyv4k3NnuGCIvk5nAHE3NSWddg7
+2019-11-22T14:41:55.209908-0500 INFO Ticketmaster Refactor __main__ Status code 200 artist: MAX key:83sdXVyv4k3NnuGCIvk5nAHE3NSWddg7
+2019-11-22T14:41:55.277082-0500 INFO Ticketmaster Refactor __main__ Status code 429 response: b'{"fault":{"faultstring":"Spike arrest violation. Allowed rate : MessageRate{messagesPerPeriod=5, periodInMicroseconds=1000000, maxBurstMessageCount=1.0}","detail":{"errorcode":"policies.ratelimit.SpikeArrestViolation"}}}'
+2019-11-22T14:41:55.280982-0500 INFO Ticketmaster Refactor __main__ New key is 2C4llrNfIrGgEZxAft1QuJ5bpbS3SdpF
+2019-11-22T14:41:55.390239-0500 INFO Ticketmaster Refactor __main__ Status code 200 artist: The+Heavy key:2C4llrNfIrGgEZxAft1QuJ5bpbS3SdpF
+2019-11-22T14:41:55.494678-0500 INFO Ticketmaster Refactor __main__ Status code 200 artist: FISHER key:83sdXVyv4k3NnuGCIvk5nAHE3NSWddg7
+2019-11-22T14:41:55.567090-0500 INFO Ticketmaster Refactor __main__ Status code 200 artist: Ali+Gatie key:83sdXVyv4k3NnuGCIvk5nAHE3NSWddg7
+2019-11-22T14:41:55.630282-0500 INFO Ticketmaster Refactor __main__ Status code 429 response: b'{"fault":{"faultstring":"Spike arrest violation. Allowed rate : MessageRate{messagesPerPeriod=5, periodInMicroseconds=1000000, maxBurstMessageCount=1.0}","detail":{"errorcode":"policies.ratelimit.SpikeArrestViolation"}}}'
+2019-11-22T14:41:55.631360-0500 INFO Ticketmaster Refactor __main__ New key is 2C4llrNfIrGgEZxAft1QuJ5bpbS3SdpF
+2019-11-22T14:41:55.701525-0500 INFO Ticketmaster Refactor __main__ Status code 200 artist: Spongebob+Squarepants key:2C4llrNfIrGgEZxAft1QuJ5bpbS3SdpF
+2019-11-22T14:41:55.774608-0500 INFO Ticketmaster Refactor __main__ Status code 200 artist: Boy+&+Bear key:83sdXVyv4k3NnuGCIvk5nAHE3NSWddg7
+2019-11-22T14:41:55.878127-0500 INFO Ticketmaster Refactor __main__ Status code 200 artist: Whitney key:83sdXVyv4k3NnuGCIvk5nAHE3NSWddg7
+2019-11-22T14:41:55.966384-0500 INFO Ticketmaster Refactor __main__ Status code 200 artist: 11:11 key:83sdXVyv4k3NnuGCIvk5nAHE3NSWddg7
+2019-11-22T14:41:56.037679-0500 INFO Ticketmaster Refactor __main__ Status code 200 artist: Family+of+the+Year key:83sdXVyv4k3NnuGCIvk5nAHE3NSWddg7
+2019-11-22T14:41:56.041675-0500 INFO Ticketmaster Refactor __main__ Program done
+2019-11-22T14:49:11.420478-0500 INFO Ticketmaster Refactor __main__ Ticketmaster API pull start
+2019-11-22T14:49:12.699519-0500 INFO Ticketmaster Refactor __main__ Status code 200 artist: City+Girls key:83sdXVyv4k3NnuGCIvk5nAHE3NSWddg7
+2019-11-22T14:49:12.797757-0500 INFO Ticketmaster Refactor __main__ Status code 200 artist: MAX key:83sdXVyv4k3NnuGCIvk5nAHE3NSWddg7
+2019-11-22T14:49:12.863657-0500 INFO Ticketmaster Refactor __main__ Status code 429 response: b'{"fault":{"faultstring":"Spike arrest violation. Allowed rate : MessageRate{messagesPerPeriod=5, periodInMicroseconds=1000000, maxBurstMessageCount=1.0}","detail":{"errorcode":"policies.ratelimit.SpikeArrestViolation"}}}'
+2019-11-22T14:49:12.868263-0500 INFO Ticketmaster Refactor __main__ New key is 2C4llrNfIrGgEZxAft1QuJ5bpbS3SdpF
+2019-11-22T14:49:12.953491-0500 INFO Ticketmaster Refactor __main__ Status code 200 artist: The+Heavy key:2C4llrNfIrGgEZxAft1QuJ5bpbS3SdpF
+2019-11-22T14:49:13.040259-0500 INFO Ticketmaster Refactor __main__ Status code 200 artist: FISHER key:83sdXVyv4k3NnuGCIvk5nAHE3NSWddg7
+2019-11-22T14:49:13.108077-0500 INFO Ticketmaster Refactor __main__ Status code 429 response: b'{"fault":{"faultstring":"Spike arrest violation. Allowed rate : MessageRate{messagesPerPeriod=5, periodInMicroseconds=1000000, maxBurstMessageCount=1.0}","detail":{"errorcode":"policies.ratelimit.SpikeArrestViolation"}}}'
+2019-11-22T14:49:13.109074-0500 INFO Ticketmaster Refactor __main__ New key is 2C4llrNfIrGgEZxAft1QuJ5bpbS3SdpF
+2019-11-22T14:49:13.422660-0500 INFO Ticketmaster Refactor __main__ Status code 200 artist: Ali+Gatie key:2C4llrNfIrGgEZxAft1QuJ5bpbS3SdpF
+2019-11-22T14:49:13.494212-0500 INFO Ticketmaster Refactor __main__ Status code 200 artist: Spongebob+Squarepants key:83sdXVyv4k3NnuGCIvk5nAHE3NSWddg7
+2019-11-22T14:49:13.560772-0500 INFO Ticketmaster Refactor __main__ Status code 429 response: b'{"fault":{"faultstring":"Spike arrest violation. Allowed rate : MessageRate{messagesPerPeriod=5, periodInMicroseconds=1000000, maxBurstMessageCount=1.0}","detail":{"errorcode":"policies.ratelimit.SpikeArrestViolation"}}}'
+2019-11-22T14:49:13.561788-0500 INFO Ticketmaster Refactor __main__ New key is 2C4llrNfIrGgEZxAft1QuJ5bpbS3SdpF
+2019-11-22T14:49:13.933586-0500 INFO Ticketmaster Refactor __main__ Status code 200 artist: Boy+&+Bear key:2C4llrNfIrGgEZxAft1QuJ5bpbS3SdpF
+2019-11-22T14:49:14.026188-0500 INFO Ticketmaster Refactor __main__ Status code 200 artist: Whitney key:83sdXVyv4k3NnuGCIvk5nAHE3NSWddg7
+2019-11-22T14:49:14.135917-0500 INFO Ticketmaster Refactor __main__ Status code 200 artist: 11:11 key:83sdXVyv4k3NnuGCIvk5nAHE3NSWddg7
+2019-11-22T14:49:14.212890-0500 INFO Ticketmaster Refactor __main__ Status code 200 artist: Family+of+the+Year key:83sdXVyv4k3NnuGCIvk5nAHE3NSWddg7
+2019-11-22T14:49:14.214897-0500 INFO Ticketmaster Refactor __main__ Program done
